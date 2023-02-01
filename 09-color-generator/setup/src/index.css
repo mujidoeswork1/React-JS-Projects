@@ -1,0 +1,60 @@
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: hsl(210deg 36% 96%);
+}
+
+.top {
+  display: flex;
+  width: 95%;
+  margin: auto;
+  margin-top: 1rem;
+}
+.top h2 {
+  letter-spacing: 1px;
+  font-size: 2rem;
+}
+.top form {
+  align-self: center;
+  margin-left: 2rem;
+  width: 70%;
+  font-size: 1rem;
+}
+form input {
+  padding: 0.5rem 1rem;
+  width: 200px;
+  border-radius: 3px;
+  border: 0;
+  font-size: 1.3rem;
+}
+.error {
+  border: 2px solid red;
+}
+form .btn {
+  padding: 0.5rem 1rem;
+  background-color: hsl(205deg 78% 60%);
+  color: white;
+  border: 0;
+  border-radius: 3px;
+  font-size: 1.3rem;
+}
+
+.boxes {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(223.33px, 1fr));
+  /* grid-template-rows: repeat(auto-fit, minmax(96px, 1fr)); */
+  min-height: calc(100vh - 100px);
+  /* height: 100vh; */
+}
+.box {
+  background-color: burlywood;
+  color: white;
+  padding: 0.5rem 3rem;
+  border: 0.5px solid black;
+}
+
+.box p {
+  font-size: 0.8rem;
+}
